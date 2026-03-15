@@ -2,7 +2,7 @@
 
 FROM eclipse-temurin:17-jdk
 
-LABEL version="1.10.2"
+LABEL version="1.11.0"
 LABEL homepage.group=Minecraft
 LABEL homepage.name="FTB NeoTech"
 LABEL homepage.icon="https://cdn.feed-the-beast.com/blob/c8/c853e9a0534b3e83a2b2dc90fd439db77b8094c5f6b06e92d8e0072212d89bb6.png"
@@ -23,7 +23,7 @@ WORKDIR /data
 
 EXPOSE 25565/tcp
 
-ENV MOTD="FTB NeoTech v1.10.2 Server Powered by Docker"
+ENV MOTD="FTB NeoTech v1.11.0 Server Powered by Docker"
 ENV LEVEL=world
 ENV JVM_OPTS="-Xms6144m -Xmx8192m"
 
